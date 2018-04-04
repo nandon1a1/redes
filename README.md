@@ -1,6 +1,6 @@
 # Lista de atividades
 
-Atividade 01: [Introdução às Redes de Computadores](https://docs.google.com/document/d/1BT5nUNMFeFQfyovH18r07zeaC-jYUYTL1GpiRfH-WDQ/edit?usp=sharing)  
+Atividade 01 (entrega 10/04): [Introdução às Redes de Computadores](https://docs.google.com/document/d/1BT5nUNMFeFQfyovH18r07zeaC-jYUYTL1GpiRfH-WDQ/edit?usp=sharing)  
 
 
 ### Material de Apoio  
