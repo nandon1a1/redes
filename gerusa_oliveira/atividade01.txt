@@ -1,1 +1,78 @@
-questao 01
+ Introdução às Redes de Computadores
+01. Qual o objetivo principal de uma rede de computadores?
+
+o objetivo básico de uma rede de computadores é garantir que todos os recursos de informação sejam compartilhados rapidamente, com segurança e de forma confiável. Para tanto, a rede deve possuir meios de transmissão eficientes, regras básicas (protocolos) e mecanismos capazes de garantir o transporte das informações entre os seus elementos constituintes.
+uma rede de computadores tem como objetivos básicos prover a comunicação confiável entre os vários sistemas de informação, melhorar o fluxo e o acesso às informações, bem como agilizar a tomada de decisões administrativas facilitando a comunicação entre seus usuários.
+
+02. Quais as diferenças entre as redes PAN, LAN, MAN e WAN?
+
+LAN (Local Area Networks) – também designadas de redes locais, são o tipo de redes mais comuns uma vez que permitem interligar computadores, servidores e outros equipamentos de rede, numa área geográfica limitada (ex. sala de aula, casa, espaço Internet, etc).
+MAN (Metropolitan Area Networks) – permitem a interligação de redes e equipamentos numa área metropolitana (ex. locais situados em diversos pontos de uma cidade).
+WAN (Wide Area Netwoks) – permitem a interligação de redes locais, metropolitanas e equipamentos de rede, numa grande área geográfica (ex. país, continente, etc).
+PAN (Personal Area Networks) – também designadas de redes de área pessoal, são redes que usam tecnologias de rede sem fios para interligar os mais variados dispositivos (computadores, smartphones, etc) numa área muito reduzida. 
+
+03. Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor?
+
+Redes ponto-à-ponto:
+Uma rede ponto-à-ponto é uma rede onde não há um computador central oferecendo controle sobre o compartilhamento de arquivos e recursos e nem um único computador armazenando arquivos. Neste caso, todos os computadores nessa rede podem, ou não, serem acessados ou acessarem recursos e arquivos de acordo com as permissões que cada um possuir.ão indicadas apenas para redes pequenas pela facilidade de implementação e pelo baixo custo.
+Redes cliente-servidor:
+Hoje em dia, redes do tipo cliente-servidor são as mais utilizadas.  A sua grande vantagem está no fato de que centralizando a administração da rede é possível estabelecer o gerenciamento dos serviços como: possuir um banco de dados de usuários em que seja possível determinar as permissões de cada um, determinar procedimentos de cópias de arquivos de segurança e, não menos importante, criar regras para aumentar a segurança dos dados e dos usuários. 
+
+04. Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
+
+Servidor compartilhado:
+É o tipo mais comum de servidor. Também chamado de web hosting compartilhado, esse servidor é mantido por uma empresa especializada. Nele, há espaço e recurso que são compartilhados com uma série de outras empresas que utilizam o serviço. É usado principalmente para pequenas empresas, e que não rodam aplicações complexas – geralmente não excedem os 10 gigabytes. Em muitos casos, mais de 100 empresas costumam dividir o mesmo web hosting.
+Cloud Hosting:
+Também chamado de “grid hosting”, esse servidor funciona de maneira semelhante ao servidor compartilhado. No entanto, uma diferença é fundamental: trata-se de um dos tipos de servidores escaláveis. Isso possibilita que vários servidores sejam colocados em linha, passando a operar como se fossem um único servidor, mas de capacidade bem maior.
+Virtual Private Servers:
+O Virtual Private Servers é o servidor intermediário entre os serviços compartilhados e aqueles de dedicação exclusiva. Embora seja uma mesma máquina em uso, as partições são distintas, o que evita os riscos de você ser “derrrubado” quando houver instabilidade no servidor.
+
+Topologias de Rede
+05. O que é uma rede do tipo malha?
+
+ topologia em Malha ou Mesh, os computadores e Redes Locais interligam-se entre si, ponto a ponto, através de cabos e dispositivos de interligação adequados. Assim, existem diversos caminhos para se chegar ao mesmo destino.
+O papel fundamental, cabe, neste caso, aos dispositivos de interligação – por exemplo, os routers – que se encarregam do encaminhamento das mensagens através dos vários nós da malha constituída.
+
+06. O que é uma topologia do tipo híbrida? Como funciona?
+
+A topologia híbrida é bem complexa e muito utilizada em grandes redes. Nela podemos encontrar uma mistura de topologias, tais como as de anel, estrela, barra, entre outras, que possuem como características as ligações ponto a ponto e multiponto.A combinação de duas ou mais topologias de rede permite-nos beneficiar das vantagens de cada uma das topologias que integram esta topologia.
+
+07. Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela,
+barramento e anel.
+
+estrela:
+Falha de um computador não afeta o restante da rede
+Uma falha no dispositivo central paralisa a rede inteira.
+Barramento:
+Simples e relativamente confiavel
+Rede pode ficar extremamente lenta em situações de tráfego pesado.
+anel:
+A performace não é impactada com o aumento de usuarios
+A falha de um computador pode afetar o restante da rede
+
+Arquitetura de redes de computadores
+08. Quais são as sete camadas do modelo OSI?
+
+
+    7. Camada de aplicação;
+    6. Camada de apresentação;
+    5. Camada de sessão;
+    4. Camada de transporte;
+    3. Camada de rede;
+    2. Camada de enlace de dados;
+    1. Camada física.
+09. Das camadas citadas na resposta da questão 1, qual a principal função
+de cada uma
+
+1. Camada física:
+A camada física define especificações elétricas e físicas dos dispositivos. Em especial, define a relação entre um dispositivo e um meio de transmissão, tal como um cabo de cobre ou um cabo de fibra óptica. Isso inclui o layout de pinos, tensões, impedância da linha, especificações do cabo, temporização, hubs, repetidores, adaptadores de rede, adaptadores de barramento de host (HBA usado em redes de área de armazenamento) e muito mais. A camada física é responsável por definir se a transmissão pode ser ou não realizada nos dois sentidos simultaneamente. Sendo a camada mais baixa do modelo OSI, diz respeito a transmissão e recepção do fluxo de bits brutos não-estruturados em um meio físico. Ela descreve as interfaces elétricas, ópticas, mecânicas e funcionais para o meio físico e transporta sinais para todas as camadas superiores.
+2. Camada de enlace de dados:
+A camada de ligação de dados também é conhecida como de enlace ou link de dados. Esta camada detecta e, opcionalmente, corrige erros que possam acontecer no nível físico. É responsável por controlar o fluxo (recepção, delimitação e transmissão de quadros) e também estabelece um protocolo de comunicação entre sistemas diretamente conectados.
+
+
+
+
+
+
+
+
