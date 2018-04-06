@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+#FORMULÁRIO FEITO EM PYTHON BY ISABELLE BORGES S. VIEIRA
+#REDES, 4° ANO DE INFORMÁTICA, IFBA-CAMPUS JEQUIÉ, 2018
+
+print("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓")
+print("FORMULÁRIO PESSOAL")
+print("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n")
+nome = raw_input("Digite seu nome:\t")
+sobrenome = raw_input("Digite seu sobrenome:\t")
+sexo = int(input("Digite 1 para feminino ou 2 para masculino:\t"))
+
+while(sexo>2):
+        print("Número inválido!")
+        sexo = int(input("Digite 1 para feminino ou 2 para masculino:\t"))
+idade = int(input("Digite sua idade:\t"))
+grau_ins = raw_input("Informe seu grau de instrução:\t")
+print("\n")
+print("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓")
+print("RELATÓRIO DO FORMULÁRIO")
+print("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓\n")
+print("Nome: %s\nSobrenome: %s" % (nome, sobrenome))
+
+if (sexo==1):
+        print("Sexo: Feminino")
+
+elif (sexo==2):
+        print("Sexo: Masculino")
+
+
+print("Idade: %d\ngrau de instrução: %s" % (idade, grau_ins ))
+
