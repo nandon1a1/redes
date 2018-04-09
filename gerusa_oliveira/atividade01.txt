@@ -76,7 +76,8 @@ A camada de Rede é responsável pelo endereçamento dos pacotes de rede, també
  A camada de Sessão permite que duas aplicações em computadores diferentes estabeleçam uma sessão de comunicação. Nesta sessão, essas aplicações definem como será feita a transmissão de dados e coloca marcações nos dados que estão a ser transmitidos. 
  6. Camada de apresentação:
  A camada de Apresentação, também chamada camada de Tradução, converte o formato do dado recebido pela camada de Aplicação em um formato comum a ser usado na transmissão desse dado, ou seja, um formato entendido pelo protocolo usado.
- 
+ 7. Camada de aplicação:
+ A camada de aplicação corresponde às aplicações (programas) no topo da camada OSI que serão utilizadas para promover uma interação entre a máquina-usuário (máquina destinatária e o usuário da aplicação). 
  10. Quais as diferenças entre os modos de comunicação: simplex, half-duplex
 e full-duplex?
 
@@ -84,13 +85,19 @@ Simplex
 Uma comunicação é dita simplex quando há um transmissor e um receptor, sendo que este papel não se inverte nunca no período de transmissão.
 A transmissão tem sentido unidireccional.
 Pode-se ter um transmissor para vários receptores, e o receptor não tem a possibilidade de sinalizar se os dados foram recebidos.
-
+Half Duplex
+Uma comunicação é dita half duplex quando temos um Transmissor e um Receptor, sendo que ambos podem transmitir e receber dados, porém nunca simultaneamente, a transmissão tem de sentido bidireccional.
+Full Duplex
+Uma comunicação é chamada full duplex (ou simplesmente duplex) quando temos o Transmissor e o Receptor, podendo os dois transmitir dados simultaneamente em ambos os sentidos (transmissão bidireccional). Poderíamos entender uma linha full-duplex como equivalente a duas linhas simplex, uma em cada direção. 
 
 11. Quais são as camadas do modelo TCP/IP?
-12. Qual camada você achou mais importante no modelo OSI e no modelo
-TCP/IP? Por quê?
+o TCP/IP é um conjunto de protocolos. Esse grupo é dividido em quatro camadas: aplicação, transporte, rede e interface. 
 
- 7. Camada de aplicação;
+12. Qual camada você achou mais importante no modelo OSI e no modeloTCP/IP? Por quê?
+
+
+
+ 
 
 
 
