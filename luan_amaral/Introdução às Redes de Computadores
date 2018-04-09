@@ -1,0 +1,62 @@
+1- Qual o objetivo principal de uma rede de computadores?
+R:Propocionar ao usuario uma comunicação confiavel entre varios veiculos de informação,melhorar o acesso a informação, tambem como agilizar a tomada de decisôes administrativas facilitando a comunicação entre seus usuários.
+
+2-Quais as diferenças entre as redes PAN, LAN, MAN e WAN?
+R:Lan-São os tipos de redes mais comum que permite inteligar computadores e servidores entre outros equipamentos, numa área limitada.
+Man-permite a ligação entre redes e equipamentos numa área metropolitana.
+Wan-permite a ligação de redes locais,metropolitanas e equipamentos de rede,numa grande área geográfica.
+Pan-São chamadas de redes de área pessoal,pois seu alcance é minimo,são mais ultilizadas em residencias para ligar computadores celulares e etc...
+
+3- Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor?
+R:Na rede ponto-a-ponto não existem servidores,todos os computadores compartilham seus recursos mutamente.Enquanto na rede cliente servidor todos os computadores estão centralizados em um servidor.
+
+4- Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
+R:Servidor Dedicado: Esse é um tipo de servidor onde você aluga um servidor físico em uma empresa de web hosting. Nesses casos, o cliente tem acesso total ao servidor. Isso permite que o usuário rode toda e qualquer aplicação através dele.
+Servidor Compartilhado: É o tipo mais comum de servidor. Também chamado de web hosting compartilhado, esse servidor é mantido por uma empresa especializada. 
+Virtual Private Servers:O Virtual Private Servers é o servidor intermediário entre os serviços compartilhados e aqueles de dedicação exclusiva.
+
+5-O que é uma rede do tipo malha?
+R:São redes que tem o objetivo de ligar os dispositivos sem fio ja existentes. A rede deve ter dois tipos de nós.
+
+6-O que é uma topologia do tipo híbrida? Como funciona?
+R:É a topologia mais ultilizada em grandes redes, pois ela é barata e se instala em qualquer ambiente, ela é composta por duas ou mais topologias de redes que permite beneficiar das vantagens de cada uma das topologias que integram esta topologia.
+
+7-Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela,
+barramento e anel.
+R:Anel:Instalação razoavelmente simples; apresenta desempenho uniforme sob condições diversas de tráfego.Na falha de uma estação, toda a rede pára de funcionar.
+Estrela:Mais tolerante a falhas, fácil de instalar e de monitorar.Custo de instalação mais elevado porque utiliza mais cabeamento.
+Barramento:Estrutura simples; requer menos cabos para instalar.A rede pode ficar lenta em momentos de uso mais intenso; as falhas são difíceis de localizar.
+
+8- Quais são as sete camadas do modelo OSI?
+R:Camada Física;Camada de Enlace;Camada de Rede;Camada de transporte;Camada de sessão;Camada de Apresentação;Camada de Aplicação
+
+9-Das camadas citadas na resposta da questão 1, qual a principal função
+de cada uma?
+R:Camada Física:a principal importancia dela é porque é onde se inicia todo o processo.
+Camada de Enlace:Ela indentifica o endereço físico(Endereço MAC).
+Camada de Rede:ela decide qual a melhor rota para os dados no processo.
+Camada de Transporte:é responsavel pela qualidade na entrega/recebimento dos dados.
+Camada de sessão:é responsável por iniciar, gerenciar e terminar a conexão entre hosts.
+Camada de Apresentação:Ela cuida da formatação dos dados, e da representação destes, e ela é a camada responsável por  fazer com que duas redes diferentes (por exemplo, uma TCP/IP e outra IPX/SPX) se comuniquem, “traduzindo” os dados no processo de comunicação.
+Camada de Aplicação: Nela é que atuam o DNS, o Telnet, o FTP, etc. E ela pode  tanto iniciar quanto finalizar o processo, pois como a camada física, se encontra em um dos extremos do modelo.
+
+10- Quais as diferenças entre os modos de comunicação: simplex, half-duplex
+e full-duplex?
+R:Simplex:uando há um transmissor e um receptor, sendo que este papel não se inverte nunca no período de transmissão.
+half duplex:quando temos um Transmissor e um Receptor, sendo que ambos podem transmitir e receber dados, porém nunca simultaneamente, a transmissão tem de sentido bidireccional.
+full-dulpex:quando temos o Transmissor e o Receptor, podendo os dois transmitir dados simultaneamente em ambos os sentidos (transmissão bidireccional).
+
+11-Quais são as camadas do modelo TCP/IP?
+R: 1-  Enlace 
+2-Internet
+3-Transporte
+4-Aplicação
+
+12- Qual camada você achou mais importante no modelo OSI e no modelo
+TCP/IP? Por quê?
+R:No modelo OSI eu achei a camada de transporte,pois é onde ha o transporte de dados, e sem esse transporte não há comunicação.
+No modelo TCP/IP: a camada de aplicação pois contém todos os protocolos para um serviço específico de comunicação de dados em um nível de processo-a-processo (por exemplo: como um web browser deve se comunicar com um servidor da web). [protocolos de routing como BGP e RIP, que, por uma variedade de razões, são executados sobre TCP e UDP respectivamente, podem também ser considerados parte da camada de aplicação]
+
+
+Luan Amaral Viana-431
+09/04/2018
