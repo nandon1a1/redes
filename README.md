@@ -3,7 +3,7 @@
 **I Unidade**  
 * Atividade 01 (revisão) - [Comandos básicos Linux](https://docs.google.com/document/d/1wyAaRAyzkrcVdFVh2Ej6aLqtezZmPtSEJYG0AE-_fWE/edit?usp=sharing)    
 * Atividade 01 - [entrega 08/04](https://docs.google.com/document/d/1RBcFshHyQR_WaBjeUpI5qo1f7hg0T85ZT9Qp-vNUu9c/edit?usp=sharing)    
-* Atividade 02 - [entrega 15/04](https://docs.google.com/document/d/1bxtaE5U0vx8Ba-P8LJwFnhDtXiu37z0v_8IEpGOrAuI/edit?usp=sharing)  
+* Atividade 02 (SDN - comandos básicos) - [entrega 15/04](https://docs.google.com/document/d/1bxtaE5U0vx8Ba-P8LJwFnhDtXiu37z0v_8IEpGOrAuI/edit?usp=sharing)  
 
 
 ### Material de Apoio  
