@@ -68,8 +68,29 @@ de cada uma
 A camada física define especificações elétricas e físicas dos dispositivos. Em especial, define a relação entre um dispositivo e um meio de transmissão, tal como um cabo de cobre ou um cabo de fibra óptica. Isso inclui o layout de pinos, tensões, impedância da linha, especificações do cabo, temporização, hubs, repetidores, adaptadores de rede, adaptadores de barramento de host (HBA usado em redes de área de armazenamento) e muito mais. A camada física é responsável por definir se a transmissão pode ser ou não realizada nos dois sentidos simultaneamente. Sendo a camada mais baixa do modelo OSI, diz respeito a transmissão e recepção do fluxo de bits brutos não-estruturados em um meio físico. Ela descreve as interfaces elétricas, ópticas, mecânicas e funcionais para o meio físico e transporta sinais para todas as camadas superiores.
 2. Camada de enlace de dados:
 A camada de ligação de dados também é conhecida como de enlace ou link de dados. Esta camada detecta e, opcionalmente, corrige erros que possam acontecer no nível físico. É responsável por controlar o fluxo (recepção, delimitação e transmissão de quadros) e também estabelece um protocolo de comunicação entre sistemas diretamente conectados.
+3. Camada de rede:
+A camada de Rede é responsável pelo endereçamento dos pacotes de rede, também conhecidos por datagrama, associando endereços lógicos (IP) em endereços físicos (MAC), de forma que os pacotes de rede consigam chegar corretamente ao destino. Essa camada também determina a rota que os pacotes irão seguir para atingir o destino, baseada em fatores como condições de tráfego da rede e prioridades. 
+ 4. Camada de transporte:
+ A camada de transporte é responsável por receber os dados enviados pela camada de Sessão e segmentá-los para que sejam enviados a camada de Rede, que por sua vez, transforma esses segmentos em pacotes.
+ 5. Camada de sessão:
+ A camada de Sessão permite que duas aplicações em computadores diferentes estabeleçam uma sessão de comunicação. Nesta sessão, essas aplicações definem como será feita a transmissão de dados e coloca marcações nos dados que estão a ser transmitidos. 
+ 6. Camada de apresentação:
+ A camada de Apresentação, também chamada camada de Tradução, converte o formato do dado recebido pela camada de Aplicação em um formato comum a ser usado na transmissão desse dado, ou seja, um formato entendido pelo protocolo usado.
+ 
+ 10. Quais as diferenças entre os modos de comunicação: simplex, half-duplex
+e full-duplex?
+
+Simplex
+Uma comunicação é dita simplex quando há um transmissor e um receptor, sendo que este papel não se inverte nunca no período de transmissão.
+A transmissão tem sentido unidireccional.
+Pode-se ter um transmissor para vários receptores, e o receptor não tem a possibilidade de sinalizar se os dados foram recebidos.
 
 
+11. Quais são as camadas do modelo TCP/IP?
+12. Qual camada você achou mais importante no modelo OSI e no modelo
+TCP/IP? Por quê?
+
+ 7. Camada de aplicação;
 
 
 
