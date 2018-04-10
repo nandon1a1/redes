@@ -1,0 +1,47 @@
+Dupla em sala: Felipe Brandão
+
+
+
+sudo mn
+	Faz a conexão do Mininet-wifi, após isso, confirma-se a senha do usuário.
+
+nodes
+	Lista os nós presentes, sendo eles, 2 hosts, 1 switch e um controlador, respectivamente h1,h2,s1 e c1.
+
+sh ovs-vsctl show 
+	Lista as portas e os bridges presentes, dando a interpretar que o switch esta conectado, "true".
+
+sh ovs-ofctl dump-flows s1
+	Lista a tabela de fluxos do switch, s1.
+
+h1 ping h2
+	Faz com que teste a conectividade entre os hosts, pode ser utilizado o "-c" para limitar o teste de conectividade, exemplo "h1 ping -c1 h2", fazendo com que o teste seja feito apenas uma vez.
+
+sh ovs-ofctl dump-flows s1
+	Apresenta o que foi absorvido pelo switch, s1, após o teste de conectividade.
+
+sh ovs-ofctl dump-flows s1
+	Sim, ainda continua com o fluxo.
+
+sh ovs-ofctl del-flows s1
+	Deleta os fluxos existentes.
+
+sh ovs-ofctl add-flow s1 in_port=1,actions=output:2	
+	Adiciona uma regra para que entre na porta 1 e saia na 2.
+	
+sh ovs-ofctl add-flow s1 in_port=1,actions=output:2
+	Adiciona uma regra para que entre na porta 2 e saia na 1.
+
+sh ovs-ofctl dump-flows s1
+	Verificou-se novamente a tabela de fluxo.
+
+h1 ping h2
+	Feito novamente o teste de conectividade.
+
+sh ovs-ofctl del-flows s1	
+	Excluir os fluxos.
+
+Não consegui criar a regra.
+
+Exit
+	Comando pra sair do Mininet-Wifi.
