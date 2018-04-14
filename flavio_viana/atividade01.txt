@@ -1,0 +1,40 @@
+Questões de Aprendizagem
+
+1.Qual o objetivo principal de uma rede de computadores?
+R= Prover a comunicação confiável entre os sistemas de informação, melhorar o fluxo e o acesso às informações, bem como agilizar a tomada de decisões administrativas facilitando a comunicação entre seus usuários.
+
+2.Quais as diferenças entre as redes PAN, LAN, MAN e WAN?
+R=As redes do tipo PAN, ou Redes de Área Pessoal, são usadas para que dispositivos se comuniquem  de uma distância limitada. Um exemplo disso são as redes Bluetooth e UWB.A LAN,Local Area Networks, ou Redes Locais, interligam computadores presentes dentro de um mesmo espaço físico. Isso pode acontecer dentro de uma empresa, de uma escola ou dentro da sua própria casa, sendo possível a troca de informações e recursos entre os dispositivos participantes. A MAN,MetropolitanArea Network, ou Rede Metropolitana, que conecta diversas Redes Locais dentro de algumas dezenas de quilômetros. A WAN, WideArea Network, ou Rede de Longa Distância, vai um pouco além da MAN e consegue abranger uma área maior, como um país ou até mesmo um continente.
+
+3.Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor?
+R=Em uma rede ponto-a-ponto todos os computadores são iguais, geralmente exercendo a mesma função. Enquanto na rede cliente servidor todos os computadores estão centralizados em um servidor.
+
+4.Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
+R=Servidor compartilhado, é o tipo mais comum de servidor, também chamado de web hosting compartilhado, esse servidor é mantido por uma empresa especializada, nele, há espaço e recurso que são compartilhados com uma série de outras empresas que utilizam o serviço, é usado principalmente para pequenas empresas, e que não rodam aplicações complexas. CloudHostingesse servidor funciona de maneira semelhante ao servidor compartilhado, no entanto, uma diferença é fundamental: trata-se de um dos tipos de servidores escaláveis. Isso possibilita que vários servidores sejam colocados em linha, passando a operar como se fossem um único servidor, mas de capacidade bem maior. O Virtual Private Servers é o servidor intermediário entre os serviços compartilhados e aqueles de dedicação exclusiva, embora seja uma mesma máquina em uso, as partições são distintas, o que evita os riscos de você ser “derrubado” quando houver instabilidade no servidor.
+
+5.O que é uma rede do tipo malha?
+R=são redes que tem por objetivo interligar os dispositivos sem fio já existentes. Para isso, essa rede deve ser formada por dois tipos de nós, os denominados roteadores mesh e os clientes mesh. Os primeiros forneceriam toda a infraestrutura básica de conexão, ou seja, um backbone, se comunicando através de redes adhoc de maneira a estender o alcance, ou seja, cada nó se comunica diretamente com o outro e caso não tenha alcance direto, usa um protocolo de roteamento para a comunicação.
+
+6.O que é uma topologia do tipo híbrida? Como funciona?
+R=É a topologia mais utilizada em grandes redes, adequa-se a topologia de rede em função do ambiente, compensando os custos, expansibilidade, flexibilidade e funcionalidade de cada segmento de rede, utilizam mais de uma topologia ao mesmo tempo, podendo existir várias configurações que podemos criar utilizando uma variação de outras topologias.
+
+7.Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela,barramento e anel.
+R=Em uma topologia em estrela temos como vantagem, é que se uma cabo de conexão de dispositivos possuir alguma falha, não afetará a integridade de toda a rede. A topologia em barramento tem como vantagem o fato de não existir um nó central. A topologia em anel tem como ponto positivo é que o desenvolvimento de uma rede, não depende do número de maquinas conectadas. Entre todas as topologias temos como desvantagem o alto custo em cabeamentos, conexões e concentradores.
+
+8.Quais são as sete camadas do modelo OSI?
+R= O modelo OSI tem sete camadas, a camada física, camada de vínculo de dados, camada de rede, camada de transporte, camada de sessão, camada de apresentação e a camada de aplicativo.
+
+9. Das camadas citadas na resposta da questão 1, qual a principal função
+     de cada uma?
+R= A camada física, tem como função principal atransmissão e recepção do fluxo de bits, a camada de vínculo de dados, tem como a função principal, transferência de quadros de dados sem erros de um nó para outro através da camada física, camada de rede,  controla a operação da sub-rede, decidindo que caminho físico os dados devem seguir com base nas condições da rede, camada de transporte, garante que as mensagens sejam entregues sem erros, em sequência e sem perdas ou duplicações, camada de sessão, permite o estabelecimento da sessão entre processos em execução em estações diferentes, camada de apresentação, formata os dados a serem apresentados na camada de aplicativo, camada de aplicativo, janela onde os processos de aplicativos e usuários podem acessar serviços de rede.
+
+10. Quais as diferenças entre os modos de comunicação: simplex, half-duplex
+efull-duplex? 
+R=Uma comunicação é dita simplex quando há um transmissor e um receptor, sendo que este papel não se inverte nunca no período de transmissão.Uma comunicação é dita halfduplex quando temos um Transmissor e um Receptor, sendo que ambos podem transmitir e receber dados, porém nunca simultaneamente, a transmissão tem de sentido bidireccional.Uma comunicação é chamada fullduplex (ou simplesmente duplex) quando temos o Transmissor e o Receptor, podendo os dois transmitir dados simultaneamente em ambos os sentidos (transmissão bidireccional).
+
+11. Quais são as camadas do modelo TCP/IP? 
+R=O modelo TCP/IP está dividido em quatro camadas, sendo elas, Camada de aplicação, Camada de transporte, Camada de rede, Camada física.
+
+12. Qual camada você achou mais importante no modelo OSI e no modelo
+TCP/IP? Por quê?
+R=No modelo OSI, uma das mais importantes é a camada física Ela descreve as interfaces elétricas/ópticas, mecânicas e funcionais com o meio físico e transporta os sinais para todas as camadas superiores No modelo TCP/IP a camada de aplicação é uma importante camada, onde a maioria dos programas de rede usa de forma a se comunicar através de uma rede com outros programas.
