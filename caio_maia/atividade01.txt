@@ -11,7 +11,7 @@ Turma:431
     wan: Rede de longo alcance a nível global, que permite a interligação de redes locais, metropolitanas e equipamentos em uma grnade área geográfica.
  
  3. Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor?
-  R:  Cliente-servidor enquanto a rede ponto-a-ponto é a interligação direta entre dois computadores, a rede cliente-servidor é a interconecção entre computadores a um servidor, onde possue um administrador central controlando o tráfego de informações.
+  R: Cliente-servidor enquanto a rede ponto-a-ponto é a interligação direta entre dois computadores, a rede cliente-servidor é a interconecção entre computadores a um servidor, onde possue um administrador central controlando o tráfego de informações.
   
  4. Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
    R: Servidor dedicado é mais usado em relação a servidores de hospedagem, onde o usuario aluga este servidor e o administra
@@ -19,7 +19,7 @@ Turma:431
       Colocated servers, em que uma pessoa coloca seu próprio servidor na empresa de web hosting, e ela mesma realiza a manutenção.
        
  5. O que é uma topologia de rede do tipo malha?
-   R:Os computadores e Redes Locais interligam-se entre si, ponto a ponto, através de cabos e dispositivos de interligação adequados, chamados de routers, por exemplo, que se encarregam do encaminhamento das mensagens através dos vários nós da malha.
+   R: Os computadores e Redes Locais interligam-se entre si, ponto a ponto, através de cabos e dispositivos de interligação adequados, chamados de routers, por exemplo, que se encarregam do encaminhamento das mensagens através dos vários nós da malha.
    
  6. O que é uma topologia de rede do tipo híbrida? Como funciona?
     R: Quando uma ou mais topologias de redes estão interligadas.A combinação de duas ou mais topologias de rede permite-nos usufruir das vantagens de cada uma das topologias que estão integradas.
