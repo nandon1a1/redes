@@ -14,5 +14,37 @@ Turma:431
   R:  Cliente-servidor enquanto a rede ponto-a-ponto é a interligação direta entre dois computadores, a rede cliente-servidor é a interconecção entre computadores a um servidor, onde possue um administrador central controlando o tráfego de informações.
   
   4. Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
-   R:
- 
+   R: Servidor dedicado é mais usado em relação a servidores de hospedagem, onde o usuario aluga este servidor e o administra
+      Virtual Private Servers é um servidor isolado que divide o mesmo hardware de um único servidor fisico, onde pode correr as suas próprias aplicações.
+      Colocated servers, em que uma pessoa coloca seu próprio servidor na empresa de web hosting, e ela mesma realiza a manutenção.
+       
+  5. O que é uma topologia de rede do tipo malha?
+   R:Os computadores e Redes Locais interligam-se entre si, ponto a ponto, através de cabos e dispositivos de interligação adequados, chamados de routers, por exemplo, que se encarregam do encaminhamento das mensagens através dos vários nós da malha.
+   
+   6. O que é uma topologia de rede do tipo híbrida? Como funciona?
+    R: Quando uma ou mais topologias de redes estão interligadas.A combinação de duas ou mais topologias de rede permite-nos usufruir das vantagens de cada uma das topologias que estão integradas.
+    
+    7. Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela, barramento e anel.
+     R: Na topologia em barra o custo de instalação se torna uma das vantagens, porém, quanto mais computadores interligados, mais lenta ela fica, além de, se der algum problema no cabo, todos os pontos ficam de concção.
+        Na topologia em anel, uma de suas vantagens é que a sua performance não é impactada quanto ao número de usuários, além deles compartilharem a mesma rede, porém se houver uma falha em um único computador, todo o resto é afetado.
+        Na topologia em estrela, ao contrário da topologia anel, essa rede não afeta os outros computadores quando uma máquina da problema, pois ela tem um gerenciador central, por outro lado, quando esse gerenciador falha, todos os computadores ficam sem conecção.
+        
+        
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+      
