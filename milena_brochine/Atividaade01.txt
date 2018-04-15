@@ -1,0 +1,73 @@
+INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DA BAHIA
+DOCENTE: RAMOM                     TI-431
+DISCENTE: MILENA BROCHINE
+
+       Atividade : Introdução às Redes de computadores.
+
+1.	Qual o objetivo principal de uma rede de computadores.   
+Uma rede de computadores tem como objetivos básicos promover a comunicação confiável entre vários sistemas de informação, melhorar o fluxo e o acesso às informações, bem como agilizar a tomada de decisões administrativas facilitando a comunicação entre seus usuários. 
+2.	Quais as diferenças entre as redes PAN, LAN, MAN e WAN?
+A rede Pan, são redes que usam tecnologias de rede sem fios para interligar os mais variados dispositivos como: computador, smartphones, etc, numa área reduzida.
+ A rede Lan são redes mais comuns, já que permitem interligar computadores, servidores e outros equipamentos de rede, numa área limitada como: sala de aula, casa, etc.
+A rede Man permitem a interligação de redes e equipamentos numa área Metropolitana ex: locais situados de uma cidade.
+A rede Wan permitem a interligação de redes locais, metropolitanas e equipamentos de rede numa grande área ex: países, continentes.
+
+3.	Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor?
+Em uma rede ponto-a-ponto todos os computadores são iguais, geralmente exercendo a mesma função. E na rede cliente servidor todos os computadores estão centralizados em um servidor.
+
+4.	 Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
+SERVIDOR DE ARQUIVOS- O servidor de arquivos fornece um ponto centralizado na rede para armazenamento e compartilhamento de arquivos entre os usuários.
+SERVIDOR DE BANCO DE DADOS- É o item do aplicativo que irá concentrar todas as gravações e consultas de dados em disco de projeto. Ele será responsável por passar a disco todos os dados vindo de alarmes, históricos, etc. Assim como será também responsável pela visualização destes dados 
+SERVIDOR DE E-MAIL- É um conjunto de máquina, sistema operacional e MTAC(Mail transfer Agent), o MTA na mais é que um programa que usa o protocolo SuP para se comunicar com outros , podendo receber e enviar mensagens.
+
+         
+               Topologias de Rede  
+  
+5.	O  que é uma topologia de rede do tipo malha?
+  Numa topologia em Malha ou Mesh, os computadores e Redes Locais interligam-se entre si, ponto a ponto, através de cabos e dispositivos de interligação adequados. Assim, existem diversos caminhos para se chegar ao mesmo destino.
+O papel fundamental, cabe, neste caso, aos dispositivos de interligação – por exemplo, os routers – que se encarregam do encaminhamento das mensagens através dos vários nós da malha constituída.
+ 
+6.	  O que é uma topologia de rede do tipo híbrida? Como funciona?
+ A topologia híbrida é bem complexa e muito utilizada em grandes redes. Nela podemos encontrar uma mistura de topologias, tais como as de anel, estrela, barra, entre outras, que possuem como características as ligações ponto a ponto e multiponto.
+É a topologia mais utilizada em grandes redes.  Assim, adequa-se a topologia de rede em função do ambiente, compensando os custos, expansibilidade, flexibilidade e funcionalidade de cada segmento de rede.
+
+7.	Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela, barramento e anel?
+   Um ponto positivo na topologia de estrela a é codificação e adição de novos computadores são simples. E um ponto negativo é que se houver uma falha no dispositivo central paralisa a rede inteira.
+Na topologia de barramento um dos seus pontos positivos é a economia com os cabos e.     fácil expansão. E um de seus pontos negativos é que um falha no cabo paralisa a rede inteira. 
+A de Anel é que todos os computadores  acendem à mesma rede. E o negativo é que se houver uma falha em um computador pode afetar o resto da rede.
+                           
+                              Arquitetura de redes de computadores                                 
+8.	Quais são as sete camadas do modelo OSI?
+CAMADA DE VÍNCULO DE DADOS
+CAMADA DE REDE
+CAMADA DE TRANSPORTE
+Camadas de ponta a ponta
+CAMADA DE SESSÃO
+CAMADA DE APRESENTAÇÃO
+CAMADA DE APLICATIVO.
+
+9.	Das camadas citadas na resposta da questão anterior, qual a principal função de cada uma?
+A camada de vínculo dados proporciona uma transferência de quadro de dados sem erros de um nó para outro através da camada física, permitindo que as camadas acima dela assumam a transmissão praticamente sem erros através do vínculo.
+A camada de rede é responsável por endereçar e permitir a interferência de dados da origem até o destino de uma comunicação por meio das diversas redes que podem existir nesse caminho.
+A camada de transporte é controlar o fluxo de dados entre a origem e o destino de uma maneira confiável. 
+Camadas de ponta a ponta , a camada de transporte e as camadas acima dela são verdadeiras camadas de "origem até o destino", ou ponta a ponta, e desconsideram os detalhes dos recursos de comunicações subjacentes. Os softwares da camada de transporte (e os softwares acima deles) na estação de origem realizam uma conversa com softwares semelhantes na estação de destino, usando cabeçalhos de mensagens e mensagens de controle.
+Camada se sessão permite o estabelecimento da sessão entre processos em execução em estações diferentes.
+Camada de apresentação formata os dados a serem apresentados na camada de aplicativo. Ela pode ser considerada o tradutor da rede. Essa camada pode converter dados de um formato usado pela camada de aplicativo em um formato comum na estação de envio e, em seguida, converter esse formato comum em um formato conhecido pela camada de aplicativo na estação de recepção.
+Camada de aplicativo serve como a janela onde os processos de aplicativos e usuários podem acessar serviços de rede.
+
+10.	   Quais as diferenças entre os modos de comunicação: simplex, half-duplex e full-dupllex?
+ 
+A ligação simplex caracteriza uma ligação onde os dados circulam em apenas um sentido, ou seja, do emissor para o receptor. Este tipo de ligação é útil quando os dados não precisam circular nos dois sentidos (por exemplo, do seu computador para a impressora ou do mouse para o computador).
+A ligação half-duplex é um tipo de ligação onde os dados circulam nos dois sentidos, mas um de cada vez. Assim, com este tipo de ligação, cada extremidade emite apenas na sua vez. Este tipo de ligação permite ter uma ligação bidirecional, utilizando a capacidade total da linha.
+A ful-duplex é uma ligação onde os dados circulam de maneira bidirecional e simultânea. Assim, cada extremidade da linha pode emitir e receber ao mesmo tempo, o que significa que a banda larga está dividida em dois para cada sentido de emissão dos dados, caso um mesmo suporte de transmissão seja utilizado para as duas transmissões.
+
+11.	Quais são as camadas do modelo TCP/IP?
+Camada de aplicação 
+Camada de transporte
+Camada de Internet
+Camada de interface com a Rede.
+
+12.	Qual camada você achou mais importante no modelo OSI e no modelo
+TCP/IP? Por quê?
+
+No modelo OIS, a camada de vinculo de dados pois ela permite a transferência de um quadro de dados sem erros e ainda permite que as camadas acima dela assumam a transmissão sem erros através de vínculos. No modelo TCP/IP a camada de aplicação, ela faz a comunicação entre os aplicativos e o protocolo de transporte.
