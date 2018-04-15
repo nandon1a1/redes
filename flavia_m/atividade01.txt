@@ -1,0 +1,75 @@
+Nome: Flávia Medrado Moreira de Souza
+Turma:431
+
++++++Introdução às Redes de Computadores
+
+->1.	Qual o objetivo principal de uma rede de computadores?
+
+Proporcionar a comunicação confiável entre vários sistemas de informação, melhorar o fluxo e o acesso às informações, bem como agilizar a tomada de decisões administrativas facilitando a comunicação entre seus usuários.
+
+->2.	Quais as diferenças entre as redes PAN, LAN, MAN e WAN?
+
+Lan: é uma rede local; Man: redes de alcance médio; Wan: redes de longa distância; Pan: redes de área pessoal, usa tecnologia de redes sem fio.
+
+->3.	Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor?
+
+Em uma rede ponto-a-ponto todos os computadores são iguais, geralmente exercendo a mesma função. Enquanto na rede cliente-servidor todos os computadores estão centralizados em um servidor.
+
+->4.	Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
+Servidor de arquivos: fornece um ponto centralizado na rede para armazenamento e compartilhamento de arquivos entre os usuários.                                                Servidor de banco de dados: é o item do aplicativo que irá concentrar todas as gravações e consultas de dados em disco do projeto. Servidor de e-mail: é um conjunto de máquinas, sistema operacional e MTA (mail transfer agent).
+
++++++Topologias de Rede
+
+->5.	O que é uma topologia de rede do tipo malha?
+
+Os computadores e redes locais interligam-se entre si, ponto-a-ponto, através de cabos e dispositivos de interligação adequados. Assim existem diversos caminhos para se chegar ao mesmo destino.
+
+->6.	O que é uma topologia de rede do tipo híbrida? Como funciona?
+
+A topologia híbrida é complexa e muito utilizada em grandes redes. Nela podemos encontrar uma mistura de topologias, tais como a de anel, estrela, barra, entre outras, que possuem como características as ligações ponto-a-ponto e multiponto. A combinação de duas ou mais topologias de rede permite-nos beneficiar das vantagens de cada uma das topologias que integram esta topologia. Embora muito pouco usada em redes locais, uma variante da topologia em malha, a malha híbrida, é usada na Internet e em algumas WANs. A topologia de malha híbrida pode ter múltiplas ligações entre várias localizações, mas isto é feito por uma questão de redundância, além de que não é uma verdadeira malha porque não há ligação entre cada um e todos os nós, somente em alguns por uma questão de backup.
+
+->7. Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela,
+barramento e anel.
+
+Estrela: Ponto positivo- Codificação e adição de novos computadores é simples. Ponto negativo-Uma falha no dispositivo central paralisa a rede inteira.
+Barramento: Ponto positivo- Uso de cabo é econômico. Ponto negativo- Rede pode ficar extremamente lenta em situações de tráfego pesado. 
+Anel: Ponto positivo-Todos os computadores acessam a rede igualmente. Ponto negativo- Falha d eum computador pode afetar toda a rede.
+
++++++Arquitetura de redes de computadores
+
+->8. Quais são as sete camadas do modelo OSI?
+
+As camadas do modelo OSI estão dispostas dessa forma:
+Aplicação(camada 7)
+Apresentação(camada 6)
+Sessão(camada 5)
+Transporte(camada 4)
+Rede(camada 3) 
+Ligação de dados(camada 2)
+Física (camada 1)
+
+->9. Das camadas citadas na resposta da questão anterior, qual a principal função de cada uma?
+
+Camada 1- Tem a função de receber e enviar bits, através de um canal de comunicação.
+Camada 2- Prevê a transmissão física de dados e lida com erros de notificação, topologia de rede e controle de fluxo. 
+Camada 3- Controlar a operação de rede de um modo geral. 
+Camada 4- Inclui funções relacionadas com conexões entre máquina fonte e máquina destino, segmentando os dados em unidades de tamanho apropriado para utilização  pelo nível de rede, seguindo ou não as orientações do nível de sessão.
+Camada 5- Administrar e sincronizar diálogos entre dois processos de aplicação. Esta camada oferece três tipos de diálogos: simplex, half duplex e full duplex.
+Camada 6- Ela apresenta dados para a camada de apresentação e é responsável pela tradução dos dados e formatação do código. 
+Camada 7- Marca o local onde os usuários realmente se comunicam com o computador e só entra em ação quando é claro que o acesso a rede será necessário em breve.
+
+->10. Quais as diferenças entre os modos de comunicação: simplex, half-duplex
+e full-duplex?
+
+Simplex: Quando há um transmissor e um receptor, sendo que esse papel não se inverte nunca no período de transmissão.
+Half-duplex: Quando há um transmissor e um receptor, sendo que ambos podem transmitir e receber dados, porém nunca simultaneamente, a transmissão tem de sentido bidirecional.
+Full-duplex: Quando temos o transmissor e o receptor, podendo os dois transmitir dados simultaneamente em ambos os sentidos.
+
+->11. Quais são as camadas do modelo TCP/IP?
+
+Esse modelo é dividido em quatro camadas: aplicação, transporte, rede e interface.
+
+->12. Qual camada você achou mais importante no modelo OSI e no modelo
+TCP/IP? Por quê?
+
+No modelo OSI a camada de rede, pois nela é definido toda a rota e destinos dos dados envolvidos no tal processo. No modelo TCP/IP a camada de Aplicação pois é para onde se soluciona o acesso aos aplicativos, por exemplo: quando quero acessar o meu e-mail, estou fazendo um pedido para essa camada para que ela efetue o meu comando, que nesse caso é atendido pelo protocolo SMTP.
