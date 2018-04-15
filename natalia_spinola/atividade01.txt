@@ -27,14 +27,12 @@ vários servidores sejam colocados em linha, operando como se fossem um único s
 
 Topologias de Rede
 5. O que é uma topologia de rede do tipo malha?
-Topologia na qual todos os computadores estão conectados uns aos outros por meio de cabos individuais, possibilitando caminhos adicionais
-a rede.
+Topologia na qual todos os computadores estão conectados uns aos outros por meio de cabos individuais, possibilitando caminhos adicionais a rede.
 6. O que é uma topologia de rede do tipo híbrida? Como funciona?
 A topologia híbrida é resultado da combinação de duas ou mais topologias de rede, que possibilita o aproveitamento das vantagens de cada
 topologia em si, elas são mais tolerantes a falhas e podem diagnostica-las e isola-las. 
 7. Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela, barramento e anel.
-Topologia estrela: Se houver falha em um dos computadores, os outros não serão afetados, no entanto, se o concentrador falhar toda a rede
-para.
+Topologia estrela: Se houver falha em um dos computadores, os outros não serão afetados, no entanto, se o concentrador falhar toda a rede para.
 Topologia barramento: É de fácil expansão e o uso de cabos é mais econômico, mas a rede pode ficar lenta caso tenha tráfego pesado e uma
 falha no cabo pode isolar parte da rede.
 Topologia em anel: O acesso é igualitário para todos os computadores, mas a falha de um deles implica na falha total da rede.
