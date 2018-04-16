@@ -1,0 +1,41 @@
+Aluno: Alisson Silva Borges
+Turma: 431
+1. Qual o objetivo principal de uma rede de computadores ? 
+Tem como objetivo principal o rápido compartilhamento de todos os tipos de recurso de informação de uma forma segura e confiavél.
+
+2. Quais as diferenças entre as redes PAN, LAN, MAN e WAN ?
+A PAN (personal area network), são redes utilizadas para que os dispositivos possam se comunicar dentro de uma curta distância. Exemplos: Bluetooth e UWB.  A LAN ( Local Area Networks), são redes usadas para interligar  computadores, servidores ou equipamentos de redes  em um espaço limitado, sendo o tipo mais comum de rede, permite que os dispositivos interligados troquem informações entre sí. A MAN (Metropolitan Area Network), tem como  propósito fazer a conexão de diversas LAN, isso dentro uma área metropolitana, ou seja em vários pontos de uma mesma cidade. A WAN (Area Network Wide), é uma rede de Longa Distância que consegue englobar uma área maior do que a MAN, como um país ou um continente dependendo do seu tamanho.
+
+3. Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor ? 
+Na rede ponto-a-ponto todos os computradores compartilham seus recursos mutualmente, ou seja, todos são iguais e exercem as mesmas funções, enquanto que na rede cliente de servidor todos os computadores se encontram centralizados em um servidor que oferece controle sobre o compartilhamento de arquivos e recursos e armazena os arquivos.
+
+4. Cite três tipos de servidores , quanto aos serviços que realizam, explicando a função de cada um deles. 
+Servidor compartilhado ou Web  hosting é um servidor usado por pequenas empresas que rodam aplicações simples, geralmente possuí  um espaço  de no máximo 10 gigabytes  e outros recursos que são compartilhados com as muitas empresas que utilizam esse serviço. Servidor dedicado é um servidor que permite que o cliente tenha total acesso ao mesmo, permitindo que qualquer aplicação seja rodada atrevés de um servidor físico que é alugado em uma empresa de web hosting.Cloud hosting ou Grid hosting é um servidor com funões semelhantes ao servidor compartilhado, no entento ele é um dos tipos de servidores escaláveis, possibilitando que outros servidores sejam colocados juntos para serem usados como um servidor único, porém com uma maior capacidade.
+5. O que é uma topologia de rede do tipo malha ? 
+Na topologia em Malha há a interligação dos computadores e das LANs entre sí, formando vários caminhos, isso é possibilitado pelos cabos e roteadores, que se encarregam de encaminhar as mensagens através de taís caminhos, tendo como desvantagem a necessidade de um grande número de conexões.
+6. O que é uma topologia de rede do tipo híbrida ? Como funciona?
+É uma mistura de duas ou mais topologias de rede, sendo mais usada em grandes redes para se beneficiar de das vantagens de ambas, seu desenho final resulta na combinação dos desenhos das topologias que foram combinadas.
+7. Cite um ponto positivo e um ponto negativo, quanto às topologias : estrela, barramento e anel .
+Topologia em Barra: tem baixo custo inicial, mas apresenta dificuldade de isolar a fonte de uma falha de sistema ou equipamento.
+Topologia em Barra: tem direcionamento simples, porém assim como a topologia em barra, apresenta dificuldade de isolar a fonte de uma falha de sistema ou de equipamento.
+Topologia em Anel: tem baixo investimento a médio longo prazo, porém o tráfego flui através do concentrador, podendo representar um ponto de congestionamento.
+8. Quais são as sete camadas do modelo OSI ?
+As camadas do modelo OSI são: Física, Ligação de Dados, Rede, Transporte, Sessão, Apresentação, Aplicação.
+9. Das camadas citadas na resposta da questão anterior, qual a principal
+função de cada uma?
+Física: envio e recebimento de bits por um canal de comunicação.
+Ligação de Dados:  prevê a transmissão física de dados e lida com erros de
+notificação.
+Rede: roteamento dos pacotes entre a fonte a fonte e o destino.
+Transporte: cria conexões para requisições do nível superior.
+Sessão: administra e sincroniza os diálogos entre dois processos de aplicação
+Apresentação: apresenta dados para a camada de aplicação, traduz os dados e formata o código.
+Aplicação: funciona como interface entre o programa de aplicação atual e a próxima camada para baixo
+10. Quais as diferenças entre os modos de comunicação : simplex , half-duplex e full-duplex ?
+Na simplex há apenas um dispositvo transmissor e um dispositivo receptor sendo que o papel de ambos os dispositivo nunca se inverte no período de transmissão, que tem sentido unidirecional. Enquanto que na half-duplex ambos podem transmitir e receber dados, porém nunca transmitem e recebem ao mesmo tempo, logo o sentido da transmissão é bidirecional. Já na full-duplex, o transmissor e o receptor podem transmitir e receber dados ao mesmo tempo em ambos os sentidos, uma linha dessas equivale a duas linhas simplex cade uma em uma direção diferente.
+
+11. Quais são as camadas do modelo TCP/IP ? 
+As camadas do modelo TCP/IP são: Aplicação, Transporte, Internet e interface com a rede.
+12. Qual camada você achou mais importante no modelo OSI e no modelo
+TCP/IP? Por quê?
+No modelo OSI a camada mais importante é a camada aplicação, pois além de possuir o maior número de protocolos ela é a camada mais próxima do usuário e cada um dos usuários terá uma necessidade difrente. Já no TCP/IP a camada mais importante e a camada de internet, pois ela é responsavél pelo roteamento de pacotes, adcionando ao datagrama as informações do caminho que será percorrido, sem verificar se ele chegou ao destino. 
