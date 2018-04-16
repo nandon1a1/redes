@@ -1,0 +1,106 @@
+Ifba - Campus Jequié 
+
+Fernando Araujo Nascimento TI 431 13/04/2018 
+
+Redes de Computadores - Ramon Fontes 
+ 
+Introdução às Redes de Computadores   
+
+
+1. Qual o objetivo principal de uma rede de computadores? 
+
+O principal objetivo é permitir o compartilhamento de dados entre os usuários e maquinas de maneira rápida e precisa.    
+
+
+2. Quais as diferenças entre as redes PAN, LAN, MAN e WAN? 
+
+PAN: Significa Personal Area Network e se trata de uma rede usada para interligar dispositivos de uma determinada área residencial.  
+
+LAN: Significa Local Area Network e se trata de uma rede que conecta e liga aparelhos de um determinado local. 
+
+MAN: Significa Metropolitan Area Network e se trata de uma rede que liga diversas outras redes locais a distancias quilométricas umas das outras; 
+
+WAN: Sgnifica Wide Area Network e se trata de uma rede que atende uma área maior que a MAN chegando a países e continentes.  
+
+
+3. Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor? 
+
+A rede ponto a ponto consiste em uma rede onde os dados compartilhados passam por todos os dispositivos que estão conectados em grupo, não existe um servidor principal que controla a rede, cada aparelho funciona como estação e servidor.  
+Já a rede cliente-servidor se trata de uma rede onde os dispositivos conectados acessam a um servidor potente para realizar o trafico de dados.  
+
+ 
+
+4. Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada 
+um deles. 
+
+Servidor de Email: Processa os dados enviados por email e os entrega ao usuário da rede. 
+
+Servidor Web: Processa pedidos HTTP dos navegadores e gera dados HTTP na web. 
+
+Servidor de Arquivo: Processa e armazena os dados, além de disponibiliza-los para os usuários. 
+  
+Topologias de Rede 
+
+
+5. O que é uma topologia de rede do tipo malha? 
+
+É uma rede onde os computadores se interligam ponto a ponto (pan) por meio de fios e cabos. 
+ 
+ 
+6. O que é uma topologia de rede do tipo híbrida? Como funciona? 
+
+Uma topologia de rede híbrida é uma combinação de determinadas topologias de rede. Geralmente é utilizada para aproveitar estruturas de redes existentes e poupar custos. 
+
+
+7. Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela, barramento e anel. 
+
+Estrela: A vantagem é que se algum dispositivo for prejudicado apenas ele será afetado, uma desvantagem é a necessidade de um maior uso de cabos. 
+
+Barramento: O barramento permite certa economia com os cabos, porém se um falhar pode prejudicar toda rede. 
+
+Anel: Todos os dispositivos acessam a rede normalmente porém caso algum falhe pode prejudicar toda rede.   
+
+Arquitetura de redes de computadores 
+
+
+8. Quais são as sete camadas do modelo OSI? 
+
+Redes, Transporte, Camada Física, Seção, Apresentação, Enlace de dados, Aplicação. 
+
+
+9. Das camadas citadas na resposta da questão anterior, qual a principal função de cada uma? 
+
+Camada Física: Transmissão binária. 
+
+Enlace de dados: Endereçamento físico, transmissão de quadros. 
+
+Redes: Controle de tráfico (roteamento) e Endereçamento lógico. 
+
+Transporte: Transmissão confiável de dados. 
+
+Sessão: Comunicação entre hosts. 
+
+Apresentação: Representação de dados. 
+
+Aplicações: Processos de redes para aplicações. 
+
+
+10. Quais as diferenças entre os modos de comunicação: simplex, half-duplex e full-duplex? 
+
+A comunicação simplex se trata de uma comunicação onde tem-se um dispositivo emissor e outro receptor, sendo que durante a troca de informações estes papeis não se invertem. 
+
+Na comunicação half-duplex tanto o dispositivo recepctor quanto o dispositivo emissor podem emitir ou receber dados, porém não sminultaneamente.  
+
+Já na comunicação full-duplex tanto o transmissor quanto o receptor podem emitir e receber dados simultaneamente.  
+
+
+11. Quais são as camadas do modelo TCP/IP? 
+
+Enlace, Internet, Transporte, Aplicação. 
+
+
+12. Qual camada você achou mais importante no modelo OSI e no modelo TCP/IP? Por quê? 
+
+No modelo OSI a camada de rede, pois além de ser a que mais atua no processo também é responsável pelo processo de internetworking.  
+
+Já no modelo TCP/IP a camada mais importante é a de aplicação, pois é através dela que os programas dos dispositivos se comunicam através de uma rede. 
