@@ -1,0 +1,39 @@
++#Questão: 1
++#Resposta: Estabelecer, em um grupo de computadores, uma conexão para o compartilhamento/troca de recursos e informações. 
++
++#Questão: 2
++#Resposta: Lan é uma rede criada para o compartilhamento de dados de curto alcance sendo uma rede local, já a Man é uma rede
++que consegue interligar os computadores de uma cidade inteira sendo uma rede metropolitana, a Wan sendo a mais usada nos dias
++atuais, tem o seu alcance pelo mundo inteiro como o caso da Internet com seu longo alcance, e a Pan por seu curto alcance é mais
++utilizada para uso pessoal como wi-fi e dentre outros itens domenticos. A principal diferença entre ambas as redes é o seu alcance.
++
++#Questão: 3
++#Resposta: A difenreça entre a rede ponto-a-ponto e a rede client-servidor é que a ponto-a-ponto é feita apenas para interligar
++dois computadores em curto alcance apenas, ja a rede client-servidor consegue interligar varios computadores de uma unica vez
++permitindo um grande fluxo de dados entre eles.
++
++#Questão: 4
++#Resposta: A Topologia Anel, em Barra e a Estrela. Todas são redes e são feitas para gerar uma conexão entre varios computadores.
++A Topologia em Anel, interliga em circuito fechado alguns computadores que estão ligados em série, a rede de Topologia em Barra
++interliga varios computadores por um unico "cabo", a vantagem é que um computador pode agora acessar diretamente qualquer computador
++e outra vantagem é seu baixo custo de manutenção, porem, a desvatagem esta na sua velocidade que diminui junto com o aumento da
++quantidade de computadores, tornando assim a rede mais lenta, e tambem no caso de um computador parasse de funcionar, poderia
++ocasionar em uma quebra de rede em determinados pontos, e a Topologia Estrela, interliga varios computadores por meio de um
++concentrador central, que direciona para cada maquina os seus respectivos dados, uma vantagem é sua facilidade de manutenção pelo
++fato de ser uma peça unica, em contra ponto gera um custo muito alto por cada computador precisar de um cabo para se conectar,
++e este é o meio utilizado nos dias atuais.
++
++#Questão: 5
++#Resposta: É uma rede criada para interligar varios computadores por ponto-a-ponto utilizando cabos e dispositivos, aumentado
++assim a quantidade de caminhos que um dado pode ter para chegar em seu respectivo endereço, reduzindo a quantidade de pacotes
++que podem ser pedidos caso a rede tenha tragetorias congestionadas.
++
++#Questão: 6
++#Resposta: As topologias do tipo Hibridas, juntam caracteristicas das demais topologias sendo elas anel, barras, estrela e sem fio,
++se tornando assim mais tolerante a falhas, como um exemplo um anel interligado a cabos com fio estrelas.
++
++#Questão: 7
++#Resposta: Barras: -Vantagem: Facilidade em expansão e uso de cabo são economicos. -Desvantagem: Falha no cabo pode paralisar a rede 
++inteira. Anel: -Vantagem: A performace não sofre impactos com o aumento de usuarios. - Desvantagem: A falha de um computador pode
++comprometer o resto da rede. Estrela: -Vantagem: Uma falha no computador não paralisa a rede e a adição de novos computadores a rede
++é simples. -Desvantagem: Problemas com o dispositivo central paralisa a rede inteira.
