@@ -1,0 +1,80 @@
+Introdução a redes de computadores
+
+1. É garantir que todos os recursos de informação sejam compartilhados rapidamente,
+com segurança e de forma confiável. Para tanto, a rede deve possuir meios de transmissão eficientes, 
+regras básicas (protocolos) e mecanismos capazes de garantir o transporte das informações entre os seus elementos constituintes.
+
+2. LAN, também designadas de redes locais, são o tipo de redes mais comuns uma vez que permitem interligar computadores,
+servidores e outros equipamentos de rede, numa área geográfica limitada (ex. sala de aula, casa, espaço Internet, etc).
+MAN, permitem a interligação de redes e equipamentos numa área metropolitana (ex. locais situados em diversos pontos de uma cidade).
+WAN, permitem a interligação de redes locais, metropolitanas e equipamentos de rede, numa grande área geográfica (ex. país, continente, etc).
+PAN, também designadas de redes de área pessoal, são redes que usam tecnologias de rede sem fios para interligar os mais variados dispositivos
+(computadores, smartphones, etc) numa área muito reduzida. Exemplo de uma rede ad-hoc:
+
+3. A expressões cliente-servidor e ponto-a-ponto referem-se a diferentes formas de organização e conexão de computadores em uma rede.
+A principal diferença entre redes cliente-servidor e ponto-a-ponto relaciona-se com a distribuição da carga de trabalho do computador
+e ao armazenamento de dados. Nas redes cliente-servidor, o trabalho de execução de aplicativos na rede, tais como serviço de e-mail
+e armazenamento de arquivos para que todos os usuários autorizados na rede possam acessá-los, é baixo em computadores dessa rede. 
+No caso das redes ponto-a-ponto, todos os computadores contribuem de forma mais ou menos igual para lidar com a carga de trabalho
+de processamento e armazenamento dos arquivos compartilhados.
+
+4. Servidor  de  correio  - Tem  como  intuito  gerenciar  mensagens  eletrônicas entre os usuários da rede. 
+Servidor  de rede - Faz a  monitoração  do tráfego, do  estado, do desempenho das  estações  da  rede,  assim  como  do  meio  de  transmissão  e  de  outros  sinais, necessária para o gerenciamento da rede, de modo a possibilitar a detecção de erros, diagnose e resolução de problemas da rede, tais como falhas e queda de desempenho etc. 
+Servidor de Internet - Servidor responsável pelo armazenamento de páginas de um determinado site, requisitados pelos clientes através de browsers.
+
+Topologia de redes
+
+5. Topologia é muito utilizada em várias configurações, pois facilita a instalação e configuração de dispositivos em redes mais simples.
+Todos os nós estão atados a todos os outros nós, como se estivessem entrelaçados. 
+Já que são vários os caminhos possíveis por onde a informação pode fluir da origem até o destino
+
+6. A topologia híbrida é bem complexa e muito utilizada em grandes redes. Nela podemos encontrar uma mistura de topologias,
+tais como as de anel, estrela, barra, entre outras, que possuem como características as ligações ponto a ponto e multiponto.
+Numa topologia híbrida, o desenho final da rede resulta da combinação de duas ou mais topologias de rede. A combinação de duas
+ou mais topologias de rede permite-nos beneficiar das vantagens de cada uma das topologias que integram esta topologia.
+Embora muito pouco usada em redes locais, uma variante da topologia em malha, a malha híbrida, é usada na Internet e em algumas WANs. 
+A topologia de malha híbrida pode ter múltiplas ligações entre várias localizações, mas isto é feito por uma questão de redundância,
+além de que não é uma verdadeira malha porque não há ligação entre cada um e todos os nós, somente em alguns por uma questão de backup.
+
+7. Topologia anel- Vantagens: Todos os computadores acessam a rede igualmente; Performance não é impactada com o aumento de usuários.
+Desvantagens: Falha de um computador pode afetar o restante da rede; Problemas são difíceis de isolar.
+Topologia estrela- Vantagens: A codificação e adição de novos computadores é simples; Gerenciamento centralizado; Falha de um computador não afeta o restante da rede.
+Desvantagem: Uma falha no dispositivo central paralisa a rede inteira.
+Topologia barramento- Vantagens: Uso de cabo é econômico; Mídia é barrata, fácil de trabalhar e instalar; Simples e relativamente confiável; Fácil expansão.
+Desvantagens: Rede pode ficar extremamente lenta em situações de tráfego pesado; Problemas são difíceis de isolar; Falha no cabo paralisa a rede inteira.
+
+Arquitetura de redes de computadores
+
+8. Camada de Aplicação; Camada de Apresentação; Camada de sessão; Camada de transporte; Camada de Rede; Camada de Enlace; Camada Física
+
+9. A camada Física tem a função de enviar e receber bits, através de um canal de comunicação.
+A camada de ligação de dados prevê a transmissão física de dados e lida com erros de notificação, topologia da rede e controlo de fluxo.
+Isto significa que a camada de ligação de dados irá assegurar que as mensagens são enviadas para o dispositivo apropriado em uma
+rede local utilizando endereços de hardware e irá traduzir mensagens da camada de rede em bits para a camada física para transmitir.
+A camada de rede tem a função de controlar a operação da rede de um modo geral. 
+A camada de transporte inclui funções relacionadas com conexões entre a máquina fonte e máquina destino, segmentando os dados em 
+unidades de tamanho apropriado para utilização pelo nível de rede, seguindo ou não as orientações do nível de sessão.
+A função da camada de sessão é administrar e sincronizar diálogos entre dois processos de aplicação. Esta camada oferece
+três tipos de diálogo: simplex, half duplex e full duplex.
+A camada de apresentação recebe o nome de seu propósito: Ela apresenta dados para a camada de aplicação e é responsável pela tradução
+dos dados e formatação do código.
+A camada de Aplicação do modelo OSI marca o local onde os usuários realmente se comunicão com o computador e só entra em acção 
+quando é claro que o acesso à rede será necessário em breve.
+
+10. Simplex - Neste caso, as transmissões podem ser feitas apenas num só sentido, de um dispositivo emissor para um ou mais dispositivos receptores; 
+é o que se passa, por exemplo, numa emissão de rádio ou televisão; em redes de computadores, normalmente, as transmissões não são desse
+tipo.
+Half-Duplex - Nesta modalidade, uma transmissão pode ser feita nos dois sentidos,  mas alternadamente, isto é, ora num sentido ora no
+outro, e não nos dois sentidos ao mesmo tempo; este tipo de transmissão é bem exemplificado pelas comunicações entre 
+computadores (quando um transmite o outro escuta e reciprocamente); ocorre em muitas situações na comunicação entre computadores. 
+Full-Duplex - Neste caso, as transmissões podem ser feitas nos dois sentidos em simultâneo, ou seja, um dispositivo pode transmitir
+informação ao mesmo tempo que pode também recebe-la; um exemplo típico destas transmissões são as comunicações telefónicas; também
+são possíveis entre computadores, desde que o meio de transmissão utilizado contenha pelo menos dois canais, um para cada sentido
+do fluxo dos dados. 
+
+11. Camada de aplicação; Camada de Transporte; camada da Internet; camada de Rede.
+
+12. Todas as camadas são importantes em cada um de seus papeis, mas a camada no modelo OSI que achei mais importante foi 
+a camada de transporte, ela desempenha um papel muito importante que é o transporte dos dados e um dos principais motivos por 
+ter criado as redes. Já no modelo TCP/IP, a camada de aplicação me chamou atenção, já que tem um trabalho muito importante que é 
+a comunicação entre os aplicativos e o protocolo de transporte, graças a ele, o transporte é possivel. 
