@@ -1,0 +1,59 @@
+Nome: Natália Tanajura Spínola  TI431
+Resposta da atividade 1 de Redes
+
+Questões de Aprendizagem
+
+Introdução às Redes de Computadores
+1. Qual o objetivo principal de uma rede de computadores?
+Independente do seu tamanho e de sua complexidade, o objetivo principal de uma rede de computadores é permitir a comunicação rápida e 
+confiável entre os computadores.
+2. Quais as diferenças entre as redes PAN, LAN, MAN e WAN?
+A rede de área pessoal (PAN) é utilizada para comunicação entre dispositivos e cobre uma área muito pequena, tendo como exemplo o 
+bluetooth. Já a rede local (LAN) cobre uma área de até 10 km e realiza a conexão entre um grupo de computadores, sendo composta de 
+servidores, dispositivos de rede, entre outros. A rede metropolitana (MAN) interliga várias LANs dentro de uma cidade, ou seja, cobre 
+uma área muito maior que as duas citadas anteriormente e a última, a rede de grande alcance (WAN) é usada para comunicação em pontos 
+variados e chega a cobrir a conexão entre cidades, estados e países.
+3. Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor?
+Em uma rede ponto-a-ponto não existe um computador central oferecendo controle sobre o compartilhamento de arquivos e nem um único 
+computador armazenando-os e uma rede cliente-servidor tem como principal característica a administração da rede centralizada, permitindo
+o gerenciamento dos serviços. 
+4. Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
+Servidor compartilhado: Tipo de servidor mais comum. Usado principalmente para pequenas empresas que compartilham espaço e recursos, não
+rodam aplicações complexas, não excedendo no geral 10 gigabytes. Também conhecido como web hosting.
+Colocated servers: Menos comum dentre os tipos de servidor, nele você coloca o seu próprio servidor na empresa de web hosting, ou seja,
+você é o único responsável por ele e pela sua manutenção.
+Cloud Hosting: Semelhante ao servidor compartilhado, mas com uma diferença, é um tipo de servidor escalável. O que possibilita que 
+vários servidores sejam colocados em linha, operando como se fossem um único servidor com uma capacidade bem maior.
+
+Topologias de Rede
+5. O que é uma topologia de rede do tipo malha?
+Topologia na qual todos os computadores estão conectados uns aos outros por meio de cabos individuais, possibilitando caminhos adicionais a rede.
+6. O que é uma topologia de rede do tipo híbrida? Como funciona?
+A topologia híbrida é resultado da combinação de duas ou mais topologias de rede, que possibilita o aproveitamento das vantagens de cada
+topologia em si, elas são mais tolerantes a falhas e podem diagnostica-las e isola-las. 
+7. Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela, barramento e anel.
+Topologia estrela: Se houver falha em um dos computadores, os outros não serão afetados, no entanto, se o concentrador falhar toda a rede para.
+Topologia barramento: É de fácil expansão e o uso de cabos é mais econômico, mas a rede pode ficar lenta caso tenha tráfego pesado e uma
+falha no cabo pode isolar parte da rede.
+Topologia em anel: O acesso é igualitário para todos os computadores, mas a falha de um deles implica na falha total da rede.
+
+Arquitetura de redes de computadores
+8. Quais são as sete camadas do modelo OSI?
+Camada física, camada de enlace, camada de rede, camada de transporte, camada de sessão, camada de apresentação e camada de aplicação.
+9. Das camadas citadas na resposta da questão anterior, qual a principal função de cada uma?
+Camada Física: Define a forma como os dados são convertidos fisicamente em sinais digitais nos meios de comunicação.
+Camada de Enlace: Define a interface com a placa de rede e a compartilha com os meios de transmissão.
+Camada de Rede: Permite gerenciar o endereçamento e o encaminhamento dos dados (através da rede).
+Camada de Transporte: Transporta os dados, separa em pacotes e gere os eventuais erros de transmissão. 
+Camada de Sessão: Define a abertura das sessões de comunicação entre as máquinas da rede.
+Camada de Apresentação: Define o formato dos dados manipulados pelo nível de aplicação independentemente do sistema.
+Camada de Aplicação: Garante a interface com o sistema operacional.
+10. Quais as diferenças entre os modos de comunicação: simplex, half-duplex e full-duplex?
+O modo de comunicação Simplex permite apenas uma comunicação unidirecional, onde somente um recebe e outro somente envia. Já o Half- 
+duplex e o Full-duplex são bidirecionais, sendo este último capaz de enviar e receber ao mesmo tempo.
+11. Quais são as camadas do modelo TCP/IP?
+Camada de aplicação, camada de transporte, camada de internet e camada de acesso à rede.
+12. Qual camada você achou mais importante no modelo OSI e no modelo TCP/IP? Por quê?
+No modelo OSI foi a camada de aplicação, pois é o nível mais próximo do usuário. E no modelo TCP/IP a camada de internet, pois além de 
+ser considerada a mais importante, é ela que define os datagramas e gerencia as noções de endereçamento IP.
+
