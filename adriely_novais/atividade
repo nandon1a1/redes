@@ -1,0 +1,48 @@
+Aluna: Adriely Lima Novais Turma: 431
+1. Qual o objetivo principal de uma rede de computadores?
+O principal objetivo de uma rede de computadores é promover a comunicação entre os usuários e estabelecer a trocar informações.
+2. Quais as diferenças entre as redes PAN, LAN, MAN e WAN?
+As diferenças entre as redes citada no enunciado são as limitações no alcance de comunicação de cada rede.
+3. Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor?
+Em uma rede ponto-a-ponto todos os computadores então interligados exercendo uma mesma função, o que dificulta a gerência e a rede cliente-servidor os computadores estão conectados em um servidor central o que possibilita realizarem funções distintas.
+4. Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
+Fax, Web e Torre.
+O servidor Fax gerência de forma centralizada seus aplicativos processando a entrada e saída de documentos e armazena no software.
+Web é um servidor que aceita HTTP de clientes e tem como função a publicação de objetos além de gerenciar sites e o Torre é um servidor hardware com função de centralizar os dados em uma sala de armazenamento.
+5. O que é uma rede do tipo malha/mesh?
+A rede do tipo malha facilita a troca de informações entre os computadores, pois possibilita uma escolha de interconexão o que garante uma certa segurança.
+6. O que é uma tipologia do tipo híbrida? E como funciona?
+Híbrido está relacionado a junção de coisas que se diferem entre si, no caso em questão, trata-se da junção entre as tipologias (estrela, barra).
+Devido a flexibilidade da tipologia híbrida ela permite beneficiar as vantagens topologias que integraram a ela, no entanto acontecem demandas de conexão.
+7. Cite um ponto positivo e um ponto negativo das tipologias: estrela, barra e anel.
+O ponto positivo da tipologia estrela é que cada estação se comunica diretamente com o nó central o que facilita a manutenção. O ponto negativo é o alto custo da implementação desta topologia.
+A topologia em barra apresenta um ponto positivo que é o baixo custo de sua implementação e o ponto negativo é a internet lenta.
+A topologia em anel o ponto positivo é a economia e praticidade em trabalhar por ser relativamente segura e o ponto negativo é que conforme muitos usuários ficam conectados, a rede fica lenta, e quando existe um problema é difícil de isolar.
+8. Quais são as sete camadas do modelo OIS (open systems interconnect)?
+As sete camadas são: aplicativo, apresentação, sessão, transporte, rede, vínculos de
+dados e a camada física.
+9. Das camadas citadas na resposta da questão 8, qual a principal função cada uma?
+A camada física é encarregada de transmissão e recepção do fluxo de bits. A camada
+de vínculo de dados impede que as camadas superiores assumam transmissões com
+erro. A camada de rede decide qual caminho que os dados devem seguir com base
+nas condições da rede. A camada de transporte garante que a mensagem seja
+entregue. A camada de sessão permite estabelecer conexão com processos em
+andamento. A camada de apresentação é responsável pelo tradução da dados a
+serem apresentados ao usuário. E a camada de aplicativo é uma janela onde os
+processos podem acessar serviços de rede.
+10. Quais as diferenças entre os modos de comunicação: simplex, half- duplex e fullduplex?
+O modo de comunicação simplex é unidirecional, onde apenas um tem a função de
+transmitir e o outro de receber informações, exemplo controle remoto.
+O modo half-duplex é bidirecional e altera o sentido de envio da informação.
+O modo full-duplex é bidirecional e pode transmitir e receber informações ao
+mesmo tempo.
+11. Quais são as camadas do modelo TCP/IP?
+O protocolo TCP/IP tem uma arquitetura constituída por quatro camadas são elas:
+camada de aplicação, camada de transporte, camada da internet e a camada de
+interface com a rede.
+12. Qual camada você achou mais importante no modelo OSI e no modelo TCP/IP?
+Por quê?
+No modelo OSI eu achei mais importante a camada de apresentação porque
+transcreve as informações para que o usuário possa entender. E no modelo TCP/IP
+eu achei a camada de transporte mais importante, pois ela além de encaminhar os
+pacotes de forma intercalada ainda verifica se estes chegou ao destino.
