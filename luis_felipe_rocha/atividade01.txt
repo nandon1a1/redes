@@ -1,0 +1,95 @@
+Meu nome: Luis Felipe Rocha Silva
+TI-431
+
+Questão 1:Qual o objetivo principal de uma rede de computadores?
+Resposta1:uma rede de computadores tem comoobjetivos básicos provera comunicação confiável entre os vários sistemasde informação, melhorar o fluxo 
+e o acesso às informações, bem como agilizar a tomada de decisões administrativas facilitando a comunicação entre seus usuários
+
+Questão 2:Quais as diferenças entre as redes PAN, LAN, MAN e WAN?
+Resposta2:LAN (Local Area Networks) – também designadas de redes locais, são o tipo de redes mais comuns 
+uma vez que permitem interligar computadores, servidores e outros equipamentos de rede, numa área 
+geográfica limitada (ex. sala de aula, casa, espaço Internet, etc).
+MAN (Metropolitan Area Networks) – permitem a interligação de redes e equipamentos 
+numa área metropolitana (ex. locais situados em diversos pontos de uma cidade).
+WAN (Wide Area Netwoks) – permitem a interligação de redes locais, metropolitanas e equipamentos de rede, numa 
+grande área geográfica (ex. país, continente, etc).
+PAN (Personal Area Networks) – também designadas de redes de área pessoal, são redes que usam tecnologias de rede sem fios para interligar os 
+mais variados dispositivos (computadores, smartphones, etc) numa área muito reduzida. Exemplo de uma rede ad-hoc:
+
+Questão 3:Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor?
+Resposta3: Em uma rede ponto-a-ponto todos os computadores são iguais, geralmente exercendo a mesma função. 
+Enquanto na rede cliente servidor todos os computadores estão centralizados em um servidor.
+
+Questão 4:Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
+Resposta4:    Servidor compartilhado
+É o tipo mais comum de servidor. Também chamado de web hosting compartilhado, esse servidor é mantido por uma empresa especializada. 
+Nele, há espaço e recurso que são compartilhados com uma série de outras empresas que utilizam o serviço. É usado 
+principalmente para pequenas empresas, e que não rodam aplicações complexas – geralmente não excedem os 10 gigabytes. 
+Em muitos casos, mais de 100 empresas costumam dividir o mesmo web hosting
+              Servidor Dedicado
+Esse é um tipo de servidor onde você aluga um servidor físico em uma empresa de web hosting. Nesses casos, o cliente tem acesso total 
+ao servidor. Isso permite que o usuário rode toda e qualquer aplicação através dele.
+              Virtual Private Servers
+O Virtual Private Servers é o servidor intermediário entre os serviços compartilhados e aqueles de dedicação exclusiva. Embora seja uma 
+mesma máquina em uso, as partições são distintas, o que evita os riscos de você ser “derrrubado” quando houver instabilidade no servidor.
+
+Questão 5:O que é uma topologia de rede do tipo malha?
+Resposta5:Rede mesh ou rede de malha, é uma alternativa de protocolo ao padrão 802.11 para diretrizes de 
+tráfego de dados e voz além das redes a cabo ou infraestrutura wireless
+
+Questão 6: O que é uma topologia de rede do tipo híbrida? Como funciona?
+Resposta6: É a topologia mais utilizada em grandes redes.[4] Assim, adequa-se a topologia de rede em função do ambiente, compensando os custos, expansibilidade, 
+flexibilidade e funcionalidade de cada segmento de rede. São as que utilizam mais de uma topologia ao mesmo tempo, podendo 
+existir várias configurações que podemos criar utilizando uma variação de outras topologias. Elas foram desenvolvidas 
+para resolver necessidades específicas. Numa topologia híbrida, o desenho final da rede resulta da combinação de duas ou 
+mais topologias de rede
+
+Questão 7: Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela,
+barramento e anel.
+Resposta7:    Barramento
+  Vantagem:São relativamente simples de montar, pelo que foi esta solução que imperou durante vários anos a nível de redes locais.
+  Desvantagem:Pode ser difícil detectar a origem de uma falha na rede.
+              Estrela
+  Vantagem: É fácil detectar os dispositivos avariados.
+  Desvantagem:Devido ao custo do concentrador, é mais cara do que a topologia em barramento.
+              Anel
+  Vantagem: A expansão da rede é facilmente conseguida.
+  Desvantagem: Os atrasos entre transmissões são grandes mesmo com o tráfego ligeiro
+  
+Questão 8:Quais são as sete camadas do modelo OSI?
+Resposta8:Camada Física, Camada de Enlace, Camada de Rede, Camada de transporte, Camada de sessão
+Camada de Apresentação e Camada de Aplicação
+
+
+Questão 9: Das camadas citadas na resposta da questão anterior, qual a principal função de cada uma?
+Resposta9: Camada Física:é onde se inicia o todo processo. O sinal que vem do meio (Cabos UTP por exemplo) 
+chega à camada física em formato de sinais elétricos e se transforma em bits (0 e 1)
+           Camada de Enlace:A camada e enlace trata as topologias de rede, dispositivos como Switche, placa de rede 
+interfaces, etc., e é responsável por todo o processo de switching. Após o recebimento dos bits,  ela os 
+converte de maneira inteligível, os transforma em unidade de dado, subtrai o endereço físico e encaminha 
+para a camada de rede que continua o processo. Sua PDU é o QUADRO.
+            Camada de Rede:A partir de dispositivos como roteadores, ela decide qual o melhor caminho para 
+dados no processo, bem como estabelecimento das rotas. A camada 3 já entende o endereço físico, 
+que o converte para endereço lógico (o endereço IP).
+            Camada de transporte:A camada de transporte é responsável pela qualidade na entrega/recebimento dos dados. 
+Após os dados já endereçados virem da camada 3, é hora de começar o transporte dos mesmos
+            Camada de sessão:A  camada 5 é responsável por iniciar, gerenciar e terminar a conexão entre hosts. Para obter 
+êxito no processo de comunicação, a camada de seção têm que se preocupar com a  sincronização entre hosts, para que a sessão aberta entre eles se mantenha funcionando. 
+            Camada de Apresentação:A camada 6 atua como intermediaria no processo frente às suas camadas adjacentes. Ela cuida da formatação dos dados, e da representação destes, e 
+ela é a camada responsável por  fazer com que duas redes diferentes (por exemplo, uma TCP/IP e outra IPX/SPX) se comuniquem, “traduzindo” os dados no processo de comunicação.
+            Camada de Aplicação:Do ponto de vista do conceito, na minha opinião a camada 7 e basicamente a interface direta para inserção/recepção de dados. Nela é que atuam o DNS 
+o Telnet, o FTP, etc. E ela pode  tanto iniciar quanto finalizar o processo, pois como a camada física, se encontra em um dos extremos do modelo!
+
+Questão 10: Quais as diferenças entre os modos de comunicação: simplex, half-duplexe full-duplex?
+Resposta10:
+      Simplex: Uma comunicação é dita simplex quando há um transmissor e um receptor, sendo que este papel não se inverte nunca no período de transmissão.
+      Half Duplex: Uma comunicação é dita half duplex quando temos um Transmissor e um Receptor, sendo que ambos podem transmitir e receber dados, porém 
+      nunca simultaneamente, a transmissão tem de sentido bidireccional.A transmissão tem sentido unidireccional.Pode-se ter um transmissor para vários receptores, e o receptor não tem a possibilidade de sinalizar se os dados foram recebidos.
+      Ful Duplex:Uma comunicação é chamada full duplex (ou simplesmente duplex) quando temos o Transmissor e o Receptor, podendo os dois transmitir dados simultaneamente em ambos os sentidos (transmissão bidireccional). 
+
+Questão 11: Quais são as camadas do modelo TCP/IP?
+Respsota11:Camada de Aplicação, Camada de Transporte (TCP), Camada de Internet (IP), Camada de Acesso à Rede
+
+Questão 12: Qual camada você achou mais importante no modelo OSI e no modelo
+TCP/IP? Por quê?
+Resposta12: A Camada de transporte, pois ela é a responsável pelo trasnporte de dados, e sem ela não teria aplicação ou o acesso á rede.  
