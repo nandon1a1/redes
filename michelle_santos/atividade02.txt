@@ -1,0 +1,66 @@
+     INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DA BAHIA
+     DOCENTE: RAMON                                                             DISCIPLINA: REDES  
+     DICENTE: MICHELLE DOS SANTOS   PINTO                     TI-431
+
+          ATIVIDADE: Introdução às redes de computadores
+
+   1. Qual o objetivo principal de uma rede de computadores?
+Uma rede de computadores tem como principal objetivo, que aconteça uma comunicação, ocorrendo uma troca de informações entre sistemas de informação de maneira efetiva, rápida e confiável, além de outros recursos.
+   2. Quais as diferenças entre as redes PAN, LAN, MAN e WAN?
+PAN- Também chamadas de Redes de Área Pessoal, são usadas para que dispositivos se comuniquem dentro de uma distância bastante limitada, usam tecnologias sem fio. Podemos citar dois exemplos de um rede PAN, as redes BLUETOOTH e  UWB.
+LAN- também chamada Local Area Networks, ou Redes Locais, interligam computadores em um pequeno espaço. É normalmente utilizada em escolas, empresas, casa, escritório etc.
+MAN- significa em inglês Metropolitan Area Network – Rede de Área Metropolitana, são redes constituídas por várias LAN’S em uma cidade  e sua área geográfica é maior que as mesmas. 
+WAN- são redes de área ampla, que agrupam várias WANS’S , se estende em uma dimensão global, exemplo: cidades, países e continentes.
+   3. Qual a diferença entre uma rede ponto-a-ponto e uma rede cliente-servidor?
+Uma rede ponto-à-ponto é uma rede onde não há um computador central gerenciando o compartilhamento de recursos e arquivos, podendo assim serem acessados ou acessarem recursos e arquivos de acordo com as permissões que cada um possuir . Cliente-servidor (client-server) é uma rede que possui uma máquina como servidor para as demais que estão interligadas a ela para um melhor controle, por esse motivo a rede cliente-servidor é mais utilizada, pois estabelece o gerenciamento, como por exemplo, de banco de dados, determina procedimentos de cópias de arquivo de segurança e cria regras para aumentar a segurança dos dados e dos usuários.  
+   4. Cite três tipos de servidores, quanto aos serviços que realizam, explicando a função de cada um deles.
+Servidor de Arquivos – promove um ponto centralizado na rede entre usuários para o  armazenamento e compartilhamento de arquivos .
+Servidor de impressão- aplicativo (software) ou dispositivo (hardware), gerencia todas as tarefas de impressão que são enviados de qualquer computador ligado à rede. Sua principal função é definir as prioridades e gerenciar as filas de impressão, de modo que os trabalhos sejam distribuídos com eficaz.               
+Servidor de comunicação - É um PC, ou outro computador ligado em rede, a um ou mais dispositivos de comunicação, como por exemplo, o modem ou ouro equipamento de comunicação. Tem como função incluir serviços de correio eletrônico, que são responsáveis pela distribuição de e-mails e do serviço de fax.
+Topologias de Rede
+
+   5. O que é uma topologia de rede do tipo malha?
+Esta topologia é muito utilizada em várias configurações, pois facilita a instalação e configuração de dispositivos em redes mais simples. O papel fundamental, cabe, neste caso, aos dispositivos de interligação – por exemplo, os routers – que se encarregam do encaminhamento das mensagens através dos vários nós da malha constituída.
+   6. O que é uma topologia de rede do tipo híbrida? Como funciona?
+Trata-se de uma combinação de duas ou mais topologias de rede distintas, como por exemplo, uma rede em topologia estrela conectada a uma rede em topologia barramento. A topologia híbrida é bem complexa e muito utilizada em grandes redes, ela possui também como características as ligações ponto a ponto e multiponto.
+
+   7. Cite um ponto positivo e um ponto negativo, quanto às topologias: estrela,
+barramento e anel.
+Um ponto positivo da topologia estrela, é que se ocorrer uma falha de um computador não afeta o restante da rede. Um ponto negativo da topologia estrela  é que se ocorrer uma falha no dispositivo central  paralisa a rede inteira;
+Um dos pontos positivos da topologia barramento é que sua mídia é barata e fácil de trabalhar e instalar. Um dos pontos negativos é que a rede pode ficar extremamente lenta em situações de tráfego pesado 
+Um dos pontos positivos de anel é que sua Performance não é impactada com o aumento de usuários, já um ponto negativo que podemos citar é que se ocorres algum problema, para a resolução , são difíceis de isolar.
+Arquitetura de redes de computadores
+
+   8. Quais são as sete camadas do modelo OSI?
+          Camada de apresentação 
+          Camada de Aplicação 
+          Camada de Sessão 
+          Camada de Transporte
+          Camada de Rede 
+          Camada de Ligação de Dados 
+          Camada Física
+    9. Das camadas citadas na resposta da questão anterior, qual a principal função de cada uma?
+Camada Física - tem a função de enviar e receber bits, através de um canal de comunicação. Esta camada trabalha basicamente com as características mecânicas e elétricas do meio físico, como por exemplo: Número de volts que devem representar os níveis lógicos “1” e “0”; velocidade máxima da transmissão; transmissão simplex, half duplex ou full duplex; número de pinos do conector e utilidade de cada um.
+Camada de Ligação de Dados – esta prevê a transmissão física de dados e lida com erros de notificação, topologia da rede e controlo de fluxo. Isto significa que a camada de ligação de dados irá assegurar que as mensagens são enviadas para o dispositivo apropriado em uma rede local utilizando endereços de hardware e irá traduzir mensagens da camada de rede em bits para a camada física para transmitir. A camada de ligação de dados formata a mensagem (data frame) e acrescenta um cabeçalho personalizado que contém o destino hardware e endereço de origem.
+Camada de transporte - inclui funções relacionadas com conexões entre a máquina fonte e máquina destino, para que o fluxo de dados seja transportado de maneira confiável. 
+Camada de Sessão- A função da camada de sessão é administrar e sincronizar diálogos entre dois processos de aplicação. Esta camada oferece três tipos de diálogo: simplex, half duplex e full duplex.
+Camada de apresentação - recebe o nome de seu propósito: Ela apresenta dados para a camada de aplicação e é responsável pela tradução dos dados e formatação do código. Uma maneira muito eficaz de garantir uma transferência de dados bem-sucedida é a de converter os dados em um formato padrão antes da transmissão.
+Camada de Aplicação - Entre suas funcionalidades básicas estão: A camada de aplicação auxilia aplicações, apps e processos no usuário final, qualidade de serviço, essa camada é responsável por serviços para transferência de arquivos, e-mails e outros serviços usando a rede e protocolos como Telnet, FTP, HTTP, são executados nessa camada.
+    10. Quais as diferenças entre os modos de comunicação: simplex, half-duplex e full-duplex?
+Simplex- Uma comunicação é dita simplex quando há um transmissor e um receptor, sendo que este papel não se inverte nunca no período de transmissão.
+A transmissão tem sentido unidirecional.
+Pode-se ter um transmissor para vários receptores, e o receptor não tem a possibilidade de sinalizar se os dados foram recebidos.
+Half Duplex- Uma comunicação é dita half duplex quando temos um Transmissor e um Receptor, sendo que ambos podem transmitir e receber dados, porém nunca simultaneamente, a transmissão tem de sentido bidirecional.
+Full Duplex- Uma comunicação é chamada full duplex (ou simplesmente duplex) quando temos o Transmissor e o Receptor, podendo os dois transmitir dados simultaneamente em ambos os sentidos (transmissão bidirecional). Poderíamos entender uma linha full-duplex como equivalente a duas linhas simplex, uma em cada direção.
+    11. Quais são as camadas do modelo TCP/IP?
+Camada de Transporte
+Camada de Internet
+Camada de Interface com a Rede
+Camada aplicação 
+    12. Qual camada você achou mais importante no modelo OSI e no modelo
+TCP/IP? Por quê?
+No modelo OIS, a camada que mais achei importante foi a transporte, pois é ela quem detecta e elimina erros das outras camadas, ela também é responsável pelo controle do fluxo de dados da origem até ao destino.  A camada de aplicação que considerei a mais importante no modelo CP/IP, ela quem faz a comunicação entre os protocolos de transporte e aplicativos. 
+
+ 
+
+
